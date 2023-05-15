@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: teal;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.cadastro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    padding: 30px;
+    background-color: rgb(22, 54, 65);
+    width: 35rem;
+    height: 25rem;
+    border-radius: 10px;
+}
+
+
+#Conta, form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+#newsletter{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-image: url('./imagens/bg_1.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+#newsletter p, h2{
+    margin-bottom: 10px;
+}
+
+form input {
+margin-bottom: 5px;
+border-radius: 5px;
+width: 250px;
+height: 38px;
+border-style: hidden;
+}
+
+.btn{
+    background-color: teal;
+    color: #fff;
+    width: 250px;
+height: 38px;
+border-radius: 20px;
+border-style: none;
+}
+
+.btn_new{
+    background-color: white;
+    color: gray;
+    width: 220px;
+height: 38px;
+border-radius: 20px;
+border-style: none;
+align-items: center;
+text-align: center;
+}
+
+#social ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: none;
+}
+
+#social ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 5px;
+}
+
+#social ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#social ul li a:hover{
+    
+}
+
+.btn:hover{
+    text-transform: ease-in 0.3s;
+    cursor: pointer;
+}
+
+.btn_new:hover{
+    text-transform: 0.3 ease-in ;
+    cursor: pointer;
+    background-color: rgb(22, 54, 65);
+    color: #fff;
+}
+
+
+
+
+
